@@ -9,7 +9,7 @@ import lombok.Data;
 @Component("myInfo")
 public class Info {
 	@Value("${info.huangrui.name}")
-	private String appName;
+	private String name;
 
 	@Value("${info.huangrui.phone}")
 	private String phone;
